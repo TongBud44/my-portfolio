@@ -10,6 +10,7 @@
         ></span>
       </span>
     </div>
+
     <div
       class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16"
     >
@@ -21,28 +22,28 @@
             >Skills</span
           >
         </h2>
-        <div class="mt-8" v-for="skill in Skills" :key="skill.id">
-          <div class="flex items-end justify-between" data-aos="fade-right">
+        <div class="mt-8 grid grid-cols-4 gap-4">
+          <div
+            class="flex items-center justify-center p-4 flex-col gap-3"
+            v-for="skill in Skills"
+            :key="skill.id"
+            data-aos="fade-right"
+          >
+            <img :src="skill.logo" alt="skill logo" />
             <h4 class="font-semibold uppercase text-white">
               {{ skill.name }}
             </h4>
-            <h3 class="text-2xl font-bold text-white">{{ skill.width }}</h3>
-          </div>
-          <div class="mt-2 h-1 w-full bg-[#131d30] rounded-full">
-            <div
-              class="h-1 rounded-full bg-[#f59e0b]"
-              :style="`width :${skill.width}`"
-            ></div>
           </div>
         </div>
       </div>
-      <div data-aos="flip-left">
+
+      <div data-aos="flip-left" class="h-full">
         <h2
           class="text-4xl font-bold text-white text-left mb-8 md:text-center md:mt-0 mt-8"
         >
           My Experiences
         </h2>
-        <div class="space-y-8 py-8" data-aos="fade-left">
+        <div class="space-y-8 py-7" data-aos="fade-left">
           <div
             v-for="element in Experinces"
             :key="element.id"
@@ -50,7 +51,7 @@
           >
             <div class="w-1/4">
               <img
-                src="https://img.icons8.com/ios-filled/100/ffffff/lawyer.png"
+                src="https://img.icons8.com/ios-filled/90/ffffff/lawyer.png"
                 alt="lawyer"
               />
             </div>
@@ -74,38 +75,78 @@ import { ref } from "vue";
 const Skills = ref([
   {
     id: 1,
-    name: "HTmL & CSS",
-    width: "85%",
+    name: "HTmL",
+    logo: "https://img.icons8.com/color/100/html-5--v1.png",
   },
   {
     id: 2,
-    name: "Python",
-    width: "70%",
+    name: "CSS",
+    logo: "https://img.icons8.com/color/100/css3.png",
   },
   {
     id: 3,
     name: "JavaScript",
-    width: "98%",
+    logo: "https://img.icons8.com/color/100/javascript--v1.png",
   },
   {
     id: 4,
-    name: "figma",
-    width: "91%",
+    name: "SQL",
+    logo: "https://img.icons8.com/external-soft-fill-juicy-fish/100/external-sql-coding-and-development-soft-fill-soft-fill-juicy-fish.png",
+  },
+  {
+    id: 5,
+    name: "React",
+    logo: "https://img.icons8.com/office/100/react.png",
+  },
+  {
+    id: 6,
+    name: "Next.js",
+    logo: "https://img.icons8.com/fluency-systems-regular/100/ffffff/nextjs.png",
+  },
+  {
+    id: 7,
+    name: "Vue.js",
+    logo: "https://img.icons8.com/fluency/100/vuejs.png",
+  },
+  {
+    id: 8,
+    name: "node.js",
+    logo: "https://img.icons8.com/fluency/100/node-js.png",
+  },
+  {
+    id: 9,
+    name: "express.js",
+    logo: "https://img.icons8.com/office/100/express-js.png",
+  },
+  {
+    id: 10,
+    name: "mongoDB",
+    logo: "https://img.icons8.com/color/100/mongo-db.png",
+  },
+  {
+    id: 11,
+    name: "Git",
+    logo: "https://img.icons8.com/color/100/git.png",
+  },
+  {
+    id: 12,
+    name: "supabase",
+    logo: "https://img.icons8.com/fluency/100/supabase.png",
   },
 ]);
 
 const Experinces = ref([
   {
     id: 1,
-    role: "Software Engineer",
-    company: "Microsoft",
-    date: "Mar 2023 - September 2024",
+    role: "Electrical Engineer",
+    company: "Panel Plus Company Limited",
+    date: "Nov 2023 - April 2024",
   },
   {
     id: 2,
-    role: "Frontend Developer",
-    company: "Spotify",
-    date: "Mar 2022 - September 2023",
+    role: "Electrical Technician Internship",
+    company: "Great Oriental Corporation Company Limited",
+    date: "July 2022 - Nov 2022",
   },
 ]);
 </script>

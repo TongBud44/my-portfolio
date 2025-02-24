@@ -37,45 +37,43 @@ import { ref } from "vue";
 const services = ref([
   {
     id: 1,
-    icon: "https://img.icons8.com/ios-filled/100/ffffff/google-code.png",
+    icon: "https://img.icons8.com/pastel-glyph/100/ffffff/laptop-coding--v1.png",
     name: "WEB DEVELOPMENT",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+    description: "Building responsive, fast, and user-friendly websites.",
   },
   {
     id: 2,
-    icon: "https://img.icons8.com/external-vectorslab-glyph-vectorslab/100/fffeee/external-Technical-Writing-mobile-app-development-vectorslab-glyph-vectorslab.png",
-    name: "Technical Writing",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+    icon: "https://img.icons8.com/external-prettycons-lineal-prettycons/100/ffffff/external-mobile-development-ui-mobile-prettycons-lineal-prettycons.png",
+    name: "Mobile Development",
+    description: "Creating smooth, high-performance mobile applications.",
   },
   {
     id: 3,
-    icon: "https://img.icons8.com/?size=100&id=vd5lbbAWV0Bq&format=png&color=FFFFFF",
-    name: "Mobile Development",
+    icon: "https://img.icons8.com/external-solidglyph-m-oki-orlando/100/ffffff/external-website-maintenance-seo-solid-solidglyph-m-oki-orlando.png",
+    name: "Website Maintenance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+      "Offer ongoing support and updates to ensure websites run smoothly and securely.",
   },
   {
     id: 4,
-    icon: "https://img.icons8.com/ios-filled/100/ffffff/email-open.png",
-    name: "WEB DEVELOPMENT",
+    icon: "https://img.icons8.com/ios/100/ffffff/database--v1.png",
+    name: "Backend Services",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+      "develop and manage backend systems, ensuring efficient data handling, server-side operations, and secure API integration.",
   },
   {
     id: 5,
     icon: "https://img.icons8.com/ios-filled/100/ffffff/windows10-personalization.png",
-    name: "Graphic Design",
+    name: "Frontend Services",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+      "Create user-friendly, responsive, and visually appealing interfaces across all devices.",
   },
   {
     id: 6,
-    icon: "https://img.icons8.com/ios-filled/100/ffffff/web-design.png",
-    name: "Web Design",
+    icon: "https://img.icons8.com/ios-filled/100/ffffff/github.png",
+    name: "Version Control with Git",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, ut!",
+      "Use Git for efficient version control, enabling seamless collaboration and code management.",
   },
 ]);
 </script>

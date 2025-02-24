@@ -16,11 +16,11 @@
           <div
             v-for="element in education"
             :key="element.id"
-            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641]"
+            class="flex items-center md:w-[80%] w-full rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] py-2"
           >
-            <div class="w-1/4">
+            <div class="w-1/4 pl-3">
               <img
-                src="https://img.icons8.com/ios-glyphs/60/ffffff/graduation-cap--v1.png"
+                src="https://img.icons8.com/fluency-systems-regular/85/ffffff/education.png"
                 alt="graduation-cap--v1"
               />
             </div>
@@ -48,39 +48,41 @@
           >
           Me
         </h2>
-        <p class="text-base lg:text-lg mt-8 py-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui facere
-          libero cupiditate fugit minima voluptates numquam est eos voluptate
-          saepe eius amet harum provident accusamus omnis sit in cum incidunt
-          dolorum, necessitatibus illo reiciendis ipsam debitis velit! Itaque
-          officia architecto fugit, cum dolorum eos dolore quaerat quis nobis id
-          similique!
+        <p class="text-base lg:text-lg mt-2 py-8">
+          Hi, I'm Tong, a Fullstack Developer with a passion for building
+          functional, scalable web applications. After transitioning from
+          electrical engineering, I joined a Fullstack Developer Bootcamp to
+          enhance my skills in Vue.js, React, Next.js, Node.js, and APIs. I
+          focus on solving problems efficiently and creating user-friendly apps
+          while continuously learning new technologies.
         </p>
-        <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
+        <div class="grid grid-cols-3 gap-10 max-w-auto pt-8">
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
-              +200
+              Passionate
             </h3>
-            <p class="text-sm sm:text-base text-gray-300">Happy Client</p>
+            <p class="text-sm sm:text-base text-gray-300">Learner 💡</p>
           </div>
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
-              +300
+              +3
             </h3>
-            <p class="text-sm sm:text-base text-gray-300">Project</p>
+            <p class="text-sm sm:text-base text-gray-300">Projects 🖥️</p>
           </div>
 
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
             <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
-              +7
+              5 Months
             </h3>
-            <p class="text-sm sm:text-base text-gray-300">Years Experience</p>
+            <p class="text-sm sm:text-base text-gray-300">
+              In Fullstack Development 👨🏻‍💻
+            </p>
           </div>
         </div>
       </div>
@@ -92,15 +94,15 @@ import { ref } from "vue";
 const education = ref([
   {
     id: 1,
-    School: "school 1",
-    program: "Software Engineer",
-    year: "2022",
+    School: "TechUp Thialand",
+    program: "Fullstack Developer Bootcamp",
+    year: "2024 - 2025",
   },
   {
     id: 2,
-    School: "school 2",
-    program: "Software Engineer",
-    year: "2020",
+    School: "Rajamangala University of Technology Srivijaya, Songkhla Campus",
+    program: "Bachelor's degree in Electrical Engineering",
+    year: "2019 - 2023",
   },
 ]);
 </script>

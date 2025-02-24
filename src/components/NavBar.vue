@@ -1,6 +1,6 @@
 <template>
   <header class="flex justify-between items-center p-6 relative z-20">
-    <div class="text-white text-3xl font-bold">LOGO</div>
+    <div class="text-white text-3xl font-bold">MY PORT.</div>
 
     <!-- Mobile Toggle Button -->
     <div class="md:hidden z-30">
@@ -59,7 +59,6 @@ const Menu = ref([
   { name: "About Me", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
-  { name: "Testimonials", href: "#testimonials" },
   { name: "Contact", href: "#contact" },
 ]);
 

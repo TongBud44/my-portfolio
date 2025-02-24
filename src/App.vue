@@ -56,5 +56,6 @@ import LoadingSpinner from "./components/LoadingSpinner.vue";
 * {
   scrollbar-width: thin;
   scrollbar-color: #111827 #f1f1f1;
+  font-family: "Nunito", serif;
 }
 </style>

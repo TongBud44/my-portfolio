@@ -24,16 +24,16 @@
                 class="text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-pink-500"
               >
                 Tong </span
-              >😁
+              >🤓
             </h1>
           </div>
           <p
             class="text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl"
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
-            minus consequuntur expedita doloribus quia! Inventore quo natus
-            corrupti sit reprehenderit ea eaque enim repudiandae possimus animi,
-            quas nobis non iure?
+            I am an electrical engineer who has decided to transition into
+            software development, and I have recently completed the Fullstack
+            Developer Bootcamp from TechUp. I created this website to practice
+            my skills and to showcase my project I have done.
           </p>
           <div
             class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0"
@@ -120,7 +120,7 @@
 </template>
 
 <script setup>
-import AOS from 'aos'
+import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 </script>

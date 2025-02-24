@@ -9,10 +9,11 @@
     >
       <div>
         <p class="text-[#adb7be]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta alias
-          quibusdam officia at, a quis cumque ea aperiam omnis minima quam. Modi
-          necessitatibus odit corporis at dolorem quae iusto aliquam? Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Nobis, porro!
+          I'm currently looking for new opportunities as a Web Developer. If
+          you're hiring or think I'd be a good fit for your team, feel free to
+          reach out. I'm passionate about building user-friendly, efficient, and
+          visually appealing web applications. Let's connect and discuss how I
+          can contribute to your team!
         </p>
         <div class="col-lg-4 col-md-4 mb-lg-0 mt-5">
           <div class="flex mb-10 items-center">
@@ -39,7 +40,7 @@
             </div>
             <div class="ml-5 text-white">
               <h4>Email</h4>
-              <p>xxxxxxx@gmail.com</p>
+              <p>reangsak.bud@gmail.com</p>
             </div>
           </div>
           <div class="flex mb-10 items-center">
@@ -66,7 +67,7 @@
             </div>
             <div class="ml-5 text-white">
               <h4>Phone</h4>
-              <p>+xxxxxxxxxx</p>
+              <p>+66 98-108-4841</p>
             </div>
           </div>
           <div class="flex mb-10 items-center">
@@ -93,11 +94,16 @@
             </div>
             <div class="ml-5 text-white">
               <h4>LinkedIn</h4>
-              <p>wwww.LinkedIn.com</p>
+              <a
+                class="hover:text-[#f59e0b] transition ease-in-out z-10 duration-300"
+                href="https://www.linkedin.com/in/reangsak-budsabonphaitoon-109412337/"
+                >www.linkedin.com</a
+              >
             </div>
           </div>
         </div>
       </div>
+
       <div
         style="
           background: #111a3e;
@@ -110,16 +116,16 @@
           -webkit-backdrop-filter: blur(9px);
         "
       >
-        <form class="flex flex-col p-2" data-aos="zoom-in-up">
+        <form class="flex flex-col p-3" data-aos="zoom-in-up">
           <div class="mb-6">
             <label for="email" class="text-white block mb-2 text-sm font-medium"
-              >email</label
+              >E-mail</label
             >
             <input
               type="email"
               id="email"
               class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="email@gmail.com"
+              placeholder="Email@gmail.com"
               name="email"
             />
           </div>
@@ -133,7 +139,7 @@
               type="subject"
               id="subject"
               class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-              placeholder="subject"
+              placeholder="Subject"
               name="subject"
             />
           </div>
@@ -151,7 +157,7 @@
             ></textarea>
           </div>
           <button
-            class="z-1 w-[100%!important] px-6 md:px-7 py-3 rounded-full sm:w-max flex justify-center text-white bg-[#f59e0b] border-2 border-transparent"
+            class="z-1 w-[100%!important] px-6 md:px-7 py-3 rounded-full sm:w-max flex justify-center text-white bg-[#f59e0b] border-2 border-transparent cursor-pointer"
           >
             Send Message
           </button>
