@@ -114,12 +114,15 @@
 </template>
 <script setup>
 import { ref, computed } from "vue";
+import MerryMatch from "@/assets/MerryMatch.png";
+import Personal from "@/assets/PersonalBlog.png";
+import MyPort from "@/assets/MyPort.png";
 
 const Projects = ref([
   {
     id: 1,
     category: "Web Development",
-    image: "src/assets/MerryMatch.png",
+    image: MerryMatch,
     title: "Merry Match",
     description:
       "An engaging online dating platform designed to connect people through a seamless, user-friendly experience with an attractive and modern interface for all devices.",
@@ -130,7 +133,7 @@ const Projects = ref([
   {
     id: 2,
     category: "Web Development",
-    image: "src/assets/PersonalBlog.png",
+    image: Personal,
     title: "My Personal Blog",
     description:
       "A personal blog designed to share ideas, experiences, and inspiration through a clean and engaging reading experience. Users can log in to create and share their own posts.",
@@ -141,7 +144,7 @@ const Projects = ref([
   {
     id: 3,
     category: "Web Development",
-    image: "src/assets/MyPort.png",
+    image: MyPort,
     title: "My Port",
     description:
       "A portfolio website showcasing my web development projects, built with Vue.js and Tailwind CSS. Designed with a focus on responsive UI, clean code, and an intuitive user experience.",
