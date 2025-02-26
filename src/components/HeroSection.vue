@@ -87,8 +87,8 @@
                   download="resume.pdf"
                   class="pl-2 text-[#f59e0b]"
                 >
-                  Download resume</a
-                >
+                  Download resume
+                </a>
               </div>
             </button>
           </div>
