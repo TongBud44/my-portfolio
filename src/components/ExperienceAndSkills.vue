@@ -14,7 +14,7 @@
     <div
       class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 xl:px-16"
     >
-      <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[80%]">
+      <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full w-[100%]">
         <h2 class="text-4xl font-bold text-white text-left mb-4">
           My
           <span
@@ -22,15 +22,15 @@
             >Skills</span
           >
         </h2>
-        <div class="mt-8 grid grid-cols-4 gap-4">
+        <div class="mt-8 grid grid-cols-3 lg:grid-cols-4">
           <div
-            class="flex items-center justify-center p-4 flex-col gap-3"
+            class="flex items-center justify-center p-4 flex-col lg:gap-4 gap-3"
             v-for="skill in Skills"
             :key="skill.id"
             data-aos="fade-right"
           >
             <img :src="skill.logo" alt="skill logo" />
-            <h4 class="font-semibold uppercase text-white">
+            <h4 class="text-sm lg:text-xl font-semibold uppercase text-white">
               {{ skill.name }}
             </h4>
           </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="w-3/4 pl-4">
               <h3
-                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#ec4899]"
+                class="sm:text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#ec4899]"
               >
                 {{ element.role }}
               </h3>

@@ -26,7 +26,7 @@
             </div>
             <div class="w-3/4 pl-4">
               <h3
-                class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#ec4899] lg:text-xl"
+                class="sm:text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-[#f59e0b] to-[#ec4899] lg:text-xl"
               >
                 {{ element.School }}
               </h3>
@@ -56,11 +56,11 @@
           focus on solving problems efficiently and creating user-friendly apps
           while continuously learning new technologies.
         </p>
-        <div class="grid grid-cols-3 gap-10 max-w-auto pt-8">
+        <div class="grid grid-cols-3 gap-4 lg:gap-10 max-w-auto pt-8">
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
-            <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
+            <h3 class="text-white font-bold sm:text-2xl lg:text-3xl">
               Passionate
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Learner 💡</p>
@@ -68,7 +68,7 @@
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
-            <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
+            <h3 class="text-white font-bold sm:text-2xl lg:text-3xl">
               +3
             </h3>
             <p class="text-sm sm:text-base text-gray-300">Projects 🖥️</p>
@@ -77,7 +77,7 @@
           <div
             class="text-center rounded-xl bg-[#111a3e] shadow-lg border border-[#1f1641] p-3"
           >
-            <h3 class="text-white font-bold text-xl sm:text-2xl lg:text-3xl">
+            <h3 class="text-white font-bold sm:text-2xl lg:text-3xl">
               5 Months
             </h3>
             <p class="text-sm sm:text-base text-gray-300">

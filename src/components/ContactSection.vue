@@ -3,10 +3,7 @@
     <h2 class="text-4xl font-bold text-white text-left mb-4 px-4 xl:pl-16">
       Let's Connect
     </h2>
-    <div
-      class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8"
-      data-aos="zoom-in-up"
-    >
+    <div class="grid md:grid-cols-2 gap-4 relative px-4 xl:px-16 mt-8">
       <div>
         <p class="text-[#adb7be]">
           I'm currently looking for new opportunities as a Web Developer. If
@@ -116,7 +113,7 @@
           -webkit-backdrop-filter: blur(9px);
         "
       >
-        <form class="flex flex-col p-3" data-aos="zoom-in-up">
+        <form class="flex flex-col p-3">
           <div class="mb-6">
             <label for="email" class="text-white block mb-2 text-sm font-medium"
               >E-mail</label
@@ -127,6 +124,7 @@
               class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Email@gmail.com"
               name="email"
+              autocomplete="email"
             />
           </div>
           <div class="mb-6">
@@ -141,6 +139,7 @@
               class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Subject"
               name="subject"
+              autocomplete="off"
             />
           </div>
           <div class="mb-6">
@@ -150,10 +149,11 @@
               >Message</label
             >
             <textarea
-              id="Message"
+              id="message"
               class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
               placeholder="Let's talk about ... "
               name="Message"
+              autocomplete="off"
             ></textarea>
           </div>
           <button
