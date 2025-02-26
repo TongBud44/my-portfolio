@@ -20,13 +20,12 @@
       >
         <template v-if="filteredProjects.length > 0">
           <div v-for="project in filteredProjects" :key="project.id">
-            <div
-              class="h-52 md:h-[24rem] rounded-t-xl relative group"
-              :style="{
-                backgroundImage: 'url(' + project.image + ')',
-                backgroundSize: 'cover',
-              }"
-            >
+            <div class="h-52 md:h-[24rem] rounded-t-xl relative group">
+              <img
+                :src="project.image"
+                alt="Project image"
+                class="w-full h-full object-cover rounded-t-xl"
+              />
               <div
                 class="overlay transition-all duration-500 items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] opacity-0 hidden group-hover:flex group-hover:opacity-80"
               >
