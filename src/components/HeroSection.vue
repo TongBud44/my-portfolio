@@ -83,8 +83,8 @@
                   <div class="download-loader text-white hidden"></div>
                 </div>
                 <a
-                  href="/resume.pdf"
-                  download="resume.pdf"
+                  href="/Reangsak_Budsabongphaitoon_Resume.pdf"
+                  download="Reangsak_Budsabongphaitoon_Resume.pdf"
                   class="pl-2 text-[#f59e0b]"
                 >
                   Download resume
